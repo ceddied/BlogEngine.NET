@@ -1,0 +1,144 @@
+<%@ Master Language="C#" AutoEventWireup="true" %>
+
+
+<%@ Import Namespace="BlogEngine.Core" %>
+
+
+<% 
+    Page.Header.DataBind();
+
+    if(Security.IsAuthenticated)
+        {
+        aLogin.InnerText=Resources.labels.admin;
+        aLogin.HRef=Utils.RelativeWebRoot+"admin/";
+        }
+    else
+        {
+        aLogin.InnerText=Resources.labels.login;
+        aLogin.HRef=Utils.RelativeWebRoot+"Account/login.aspx?ReturnURL="+Utils.RelativeWebRoot+"admin/";
+        }
+%>
+<!DOCTYPE html>
+<html lang="en-us">
+<head runat="server">
+    <!-- Google tag (gtag.js) -->
+    <%--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9METNTG4LX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9METNTG4LX');
+    </script>--%>
+    <!-- Bing Clarity -->
+    <%--    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y)
+        {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "8brhqtzxak");
+    </script>--%>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="src/css/core.css" rel="stylesheet" type="text/css" />
+    <link href="src/css/styles.min.css" rel="stylesheet" type="text/css" />
+    <link href="src/css/Print-min.css" rel="stylesheet" media="print" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+    <link rel="shortcut icon" href="src/img/calculator-32x32x32.ico" type="image/x-icon" />
+    <script type="text/javascript">
+        function stopRKey(evt)
+        {
+            var evt = (evt) ? evt : ((event) ? event : null);
+            var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+            if ((evt.keyCode == 13) && (node.type == "text")) { return false; }
+        }
+        document.onkeypress = stopRKey;
+    </script>
+    <%--    <script data-ad-client="ca-pub-3591594326650010" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script>--%>
+</head>
+<body class="<%=Resources.labels.LangDirection %>">
+    <form runat="Server" class="LayoutPage">
+        <!-- Header -->
+        <header class="Header">
+            <nav class="TopBar">
+                <div class="Container ClearFix">
+                    <ul class="Left NavBar">
+                        <li class="Home Left"><a href="<%=Utils.AbsoluteWebRoot %>" rel="home"><span><%=Resources.labels.home %></span></a></li>
+                        <li class="Left"><a href="<%=Utils.AbsoluteWebRoot %>archive<%= BlogEngine.Core.BlogConfig.FileExtension %>"><%=Resources.labels.archive %></a></li>
+                        <li class="Left"><a href="<%=Utils.AbsoluteWebRoot %>contact<%= BlogEngine.Core.BlogConfig.FileExtension %>"><%=Resources.labels.contact %></a></li>
+                        <% if(Utils.IsMobile)
+                                { %>
+                        <li class="Left">
+                            <blog:MobileThemeSwitch ID="MobileThemeSwitch1" runat="server" EnableTheming="true" />
+                        </li>
+                        <% } %>
+                        <%foreach(BlogEngine.Core.Page parentPage in BlogEngine.Core.Page.Pages.Where(p => !p.HasParentPage&&p.IsPublished&&p.ShowInList))
+                                { %><li class="Left Page-Link"><a href="<%=parentPage.RelativeLink %>" title="<%=parentPage.Title%>"><%=parentPage.Title%></a> <%if(parentPage.HasChildPages)
+                                                                                                                                                                       { %>
+                                    <ul class="Sub-Page-Links">
+                                        <%foreach(BlogEngine.Core.Page childPage in BlogEngine.Core.Page.Pages.Where(p => p.Parent==parentPage.Id&&p.IsPublished))
+                                                { %>
+                                        <li class="Left"><a href="<%=childPage.RelativeLink %>" title="<%=childPage.Title %>"><%=childPage.Title %></a></li>
+                                        <% } %>
+                                    </ul>
+                                    <% } %></li>
+                        <% } %>
+                    </ul>
+                    <div class=" SubscribeButton Right">
+                        <a href="<%=Utils.FeedUrl %>" title="<%=Resources.labels.subscribe %>"><span><%=Resources.labels.subscribe %></span></a>
+                    </div>
+                    <script>$(".NavBar li:has(ul)").addClass("HasChild");</script>
+                </div>
+            </nav>
+            <div class="BlogTitle">
+                <div class="Container ClearFix">
+                    <h1 class="Title">
+                        <a href="<%=Utils.AbsoluteWebRoot %>"><%=BlogSettings.Instance.Name %></a>
+                    </h1>
+                    <span class="Desc"><%=BlogSettings.Instance.Description %></span>
+                </div>
+            </div>
+        </header>
+        <!-- /Header -->
+        <!-- PageWrapper -->
+        <section class="Container" id="PageWrapper">
+            <section class="Left Content">
+                <blog:SearchOnSearch ID="SearchOnSearch1" runat="server" MaxResults="3" Headline="You searched for" Text="Here are some results for the search term on this website" />
+                <asp:ContentPlaceHolder ID="cphBody" runat="server" />
+            </section>
+            <aside class="Right Sidebar">
+                <blog:WidgetZone ID="WidgetZone1" runat="server" ZoneName="be_WIDGET_ZONE" />
+            </aside>
+        </section>
+        <!-- /PageWrapper -->
+        <!-- Footer -->
+        <footer class="Footer">
+            <div class="Container">
+                <nav class="NavBarFooter">
+                    <ul class="clearFix">
+                        <li class="Home"><a href="<%=Utils.AbsoluteWebRoot %>" rel="home"><span><%=Resources.labels.home %></span></a></li>
+                        <li>|</li>
+                        <li><a href="<%=Utils.AbsoluteWebRoot %>archive<%= BlogEngine.Core.BlogConfig.FileExtension %>"><%=Resources.labels.archive %></a></li>
+                        <li>|</li>
+                        <li><a href="<%=Utils.AbsoluteWebRoot %>contact<%= BlogEngine.Core.BlogConfig.FileExtension %>"><%=Resources.labels.contact %></a></li>
+                        <li>|</li>
+                        <li><a href="<%=Utils.FeedUrl %>" class="feed"><%=Resources.labels.subscribe %></a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(BlogEngine.filterByAPML())" class="apmlfilter"><%=Resources.labels.filterByApml %></a></li>
+                        <li>|</li>
+                        <li><a runat="server" id="aLogin"></a></li>
+                    </ul>
+                </nav>
+                <div class="License">
+                    <p class="ltr">
+                        Copyright© <%=DateTime.Now.Year %> by Eddie Davis - <a href="http://seyfolahi.net/" title="Web Designer - UI/UX" target="_blank">Theme by Farzin Seyfolahi</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- /Footer -->
+    </form>
+</body>
+</html>
+

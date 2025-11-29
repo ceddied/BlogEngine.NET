@@ -1,0 +1,33 @@
+﻿.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+label {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pnlLeft, .pnlRight, table {
+    text-align: center;
+}
+
+.pnlLeft {
+    width: 33%;
+}
+
+.pnlRight {
+    width: 66%;
+}
+
+table {
+    width: 100%;
+}
+
+.error {
+    color: #f00;
+}

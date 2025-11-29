@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+	<title>Tidal Volume Calculator for ARDS Protocol</title>
+	<description>ARDS protocol tidal volume calculator. Calculate and print ventilator tidal volumes based on predicted ideal body weight for patients on ARDS protocol.</description>
+	<content>
+		&lt;div&gt;[usercontrol:~\Custom\Themes\Respiratory\src\RespControls\Respiratory.ascx]&lt;/div&gt;
+		&lt;div&gt;[usercontrol:~\Custom\Themes\Respiratory\src\RespControls\OxygenationTable.ascx]&lt;/div&gt;
+	</content>
+	<keywords>tidal volume calculator, tidal volume calculator for ards protocol, ards protocol tidal volume calculator</keywords>
+	<slug>tidal-volume-calculator-for-ards-protocol</slug>
+	<parent>00000000-0000-0000-0000-000000000000</parent>
+	<isfrontpage>True</isfrontpage>
+	<showinlist>False</showinlist>
+	<ispublished>True</ispublished>
+	<isdeleted>False</isdeleted>
+	<sortorder>0</sortorder>
+	<datecreated>2020-04-19 20:04:00</datecreated>
+	<datemodified>2022-11-08 07:16:39</datemodified>
+</page>

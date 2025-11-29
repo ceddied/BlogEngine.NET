@@ -1,0 +1,75 @@
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 21:36:35
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 21:36:36
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 21:43:43
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 21:43:44
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 21:44:45
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 22:11:53
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/27/2025 22:11:54
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 04:49:37
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 04:49:39
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 04:55:42
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 05:03:15
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 05:19:32
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 07:01:14
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 07:01:34
+GET http://localhost:64079/api/dashboard: Error getting value from 'Logs' on 'BlogEngine.Core.Data.ViewModels.DashboardVM'.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 07:01:35
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 11:50:59
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 11:51:01
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 11:51:18
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 12:34:24
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 13:34:01
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 13:34:03
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 13:45:55
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 13:45:57
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 15:20:38
+Dashboard news feed: The request was aborted: Could not create SSL/TLS secure channel.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 11/28/2025 15:20:40
+BlogEngine.Core.Packaging.Load: Invalid URI: The hostname could not be parsed.

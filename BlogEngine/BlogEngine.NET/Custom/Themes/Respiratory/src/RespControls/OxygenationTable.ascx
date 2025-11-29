@@ -1,0 +1,149 @@
+<%@ Control Language="C#" AutoEventWireup="true" Inherits="System.Web.UI.UserControl" %>
+<div id="oxyTable">
+    <hr class="clear" />
+    <h2>OXYGENATION GOAL:</h2>
+    <hr class="clear" />
+    <p>
+        PaO<sub>2</sub> 55-80 mmHg or SpO2<sub>2</sub> 88-95% Use a minimum PEEP of 5 cm H<sub>2</sub>O. Consider use of incremental
+	FiO<sub>2</sub>/PEEP combinations such as shown below (not required) to achieve goal.
+    </p>
+    <hr class="clear" />
+    <h2>Lower PEEP/Higher FiO<sub>2</sub></h2>
+    <hr />
+    <table>
+        <tr>
+            <th>FiO<sub>2</sub>
+            </th>
+            <td>0.3
+		</td>
+            <td>0.4
+		</td>
+            <td>0.4
+		</td>
+            <td>0.5
+		</td>
+            <td>0.5
+		</td>
+            <td>0.6
+		</td>
+            <td>0.7
+		</td>
+            <td>0.7
+		</td>
+            <td>0.7
+		</td>
+            <td>0.8
+		</td>
+            <td>0.9
+		</td>
+            <td>0.9
+		</td>
+            <td>0.9
+		</td>
+            <td>1.0
+		</td>
+        </tr>
+        <tr>
+            <th>PEEP
+		</th>
+            <td>5
+		</td>
+            <td>5
+		</td>
+            <td>8
+		</td>
+            <td>8
+		</td>
+            <td>10
+		</td>
+            <td>10
+		</td>
+            <td>10
+		</td>
+            <td>12
+		</td>
+            <td>14
+		</td>
+            <td>14
+		</td>
+            <td>14
+		</td>
+            <td>16
+		</td>
+            <td>18
+		</td>
+            <td>18-24
+		</td>
+        </tr>
+    </table>
+    <hr />
+    <h2>Higher PEEP/Lower FiO<sub>2</sub></h2>
+    <hr />
+    <table>
+        <tr>
+            <th>FiO<sub>2</sub>
+            </th>
+            <td>0.3
+		</td>
+            <td>0.3
+		</td>
+            <td>0.3
+		</td>
+            <td>0.3
+		</td>
+            <td>0.3
+		</td>
+            <td>0.4
+		</td>
+            <td>0.4
+		</td>
+            <td>0.5
+		</td>
+            <td>0.5
+		</td>
+            <td>0.5-0.8
+		</td>
+            <td>0.8
+		</td>
+            <td>0.9
+		</td>
+            <td>1.0
+		</td>
+            <td>1.0
+		</td>
+        </tr>
+        <tr>
+            <th>PEEP
+		</th>
+            <td>5
+		</td>
+            <td>8
+		</td>
+            <td>10
+		</td>
+            <td>12
+		</td>
+            <td>14
+		</td>
+            <td>14
+		</td>
+            <td>16
+		</td>
+            <td>16
+		</td>
+            <td>18
+		</td>
+            <td>20
+		</td>
+            <td>22
+		</td>
+            <td>22
+		</td>
+            <td>22
+		</td>
+            <td>24
+		</td>
+        </tr>
+    </table>
+    <hr />
+</div>
